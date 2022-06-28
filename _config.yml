@@ -1,0 +1,27 @@
+title: Databricks Patterns
+email: omkarkonnur91@gmail.cm
+description: A collection of common ETL patterns implemented in pyspark using Databricks.
+author: Omkar Konnur
+baseurl: "/databricks-patterns"
+url: "https://mar1boroman.github.io"
+
+# Social Profiles
+twitter_username:
+github_username: mar1boroman
+facebook_username:
+instagram_username:
+linkedin_username: mar1boroman
+
+# Add your google-analytics ID here to activate google analytics
+#google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ##
+
+highlighter: rouge
