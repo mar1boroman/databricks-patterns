@@ -13,7 +13,9 @@ One of the ways we migrate ETL jobs from tools like Informatica/Datastage to pys
 ## TL;DR
 
 Download the below notebook [here](../../../notebooks/2022-06-15-consistent_schemas.ipynb) with comments from the blog.
+
 OR
+
 View this notebook on github [here](https://github.com/mar1boroman/databricks-patterns/blob/main/notebooks/2022-06-15-consistent_schemas.ipynb)
 
 This notebook has been tested on Databricks Community Edition
