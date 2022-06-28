@@ -54,6 +54,8 @@ send_df = spark.read.csv("/databricks-datasets/Rdatasets/data-001/csv/ggplot2/di
 send_df.write.format("delta").mode("overwrite").save("/delta/diamonds")
 ```
 
+<br>
+
 ## A sample custom CSS string used for styling the dataframe
 
 If you have ever used CSS, you would recognize the string defined below as pure CSS code without any modifications.
@@ -121,6 +123,8 @@ body{
 }
 '''
 ```
+
+<br>
 
 ## Functions for building and sending emails
 
@@ -220,6 +224,8 @@ def sendmail_html(smtp_server, smtp_port, smtp_user, smtp_password, sender_email
         server.sendmail(sender_email, receiver_email, email_string)
 ```
 
+<br>
+
 ## Testing and Execution
 
 Make sure you get the below details before you attempt to send emails from your cluster.
@@ -243,6 +249,8 @@ sendmail_html(smtp_server, smtp_port, smtp_user, smtp_password,
             email_body
            )
 ```
+
+<br>
 
 ## Conclusion
 
