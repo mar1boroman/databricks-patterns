@@ -65,7 +65,7 @@ parameter_config = [
 ]
 ```
 
-</br>
+<br>
 
 ### Step 2: Define functions
 
@@ -92,25 +92,22 @@ def print_params(config):
 
 ```
 
-</br>
+<br>
 
 ### Step 3: Execute functions
 
-```python
-widget_generator_commands(config)
-```
+````python
+widget_generator_commands(config)```
 
 This function would return a list of commands to generate the widgets for given parameter_config
 
 ```python
-widget_reader_commands(config)
-```
+widget_reader_commands(config)```
 
 This function would return a list of commands to generate variables and assign them values from their respective widgets
 
 ```python
-print_params(config)
-```
+print_params(config)```
 
 This function would display the parameter name and its corresponding value for all the parameters defined in parameter_config
 
@@ -125,9 +122,9 @@ for reader in widget_reader_commands(parameter_config):
 
 # Print all parameters
 print_params(parameter_config)
-```
+````
 
-</br>
+<br>
 
 ### Step 4? : Cleanup
 
