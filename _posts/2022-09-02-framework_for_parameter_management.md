@@ -65,6 +65,8 @@ parameter_config = [
 ]
 ```
 
+</br>
+
 ### Step 2: Define functions
 
 Note that the below functions can be placed in a seperate notebook and can be used as common functionality across all the notebooks
@@ -90,17 +92,25 @@ def print_params(config):
 
 ```
 
+</br>
+
 ### Step 3: Execute functions
 
-`widget_generator_commands(config)`
+```python
+widget_generator_commands(config)
+```
 
 This function would return a list of commands to generate the widgets for given parameter_config
 
-`widget_reader_commands(config)`
+```python
+widget_reader_commands(config)
+```
 
 This function would return a list of commands to generate variables and assign them values from their respective widgets
 
-`print_params(config)`
+```python
+print_params(config)
+```
 
 This function would display the parameter name and its corresponding value for all the parameters defined in parameter_config
 
@@ -116,6 +126,8 @@ for reader in widget_reader_commands(parameter_config):
 # Print all parameters
 print_params(parameter_config)
 ```
+
+</br>
 
 ### Step 4? : Cleanup
 
